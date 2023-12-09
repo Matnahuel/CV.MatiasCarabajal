@@ -1,0 +1,449 @@
+/* FUENTE */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+*{
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* SECCION INICIO */
+.inicio{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("img/fondo.jpg");
+    background-size: cover;
+    background-attachment:initial;
+    background-position: center center;
+    color: #fff;
+}
+.inicio .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio .contenido-seccion header{
+    padding: 30px;
+}
+/* MENU */
+.inicio .contenido-seccion header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: rgb(40, 94, 241);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+.inicio .contenido-seccion header nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+/*  */
+.inicio .contenido-seccion header .logo{
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: "Yellowtail";
+    text-shadow: 0 0 35px #fff;
+}
+.inicio .contenido-seccion header .logo .color{
+    color: rgb(40, 94, 241);
+    font-family: "Yellowtail";
+}
+.inicio .contenido-seccion header .nav-bar{
+    position: fixed;
+    background-color: rgb(40, 94, 241);
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.inicio .contenido-seccion header .nav-bar:hover{
+    box-shadow: 0 0 35px #fff;
+}
+.inicio .contenido-seccion .info{
+    padding-bottom: 130px;
+}
+.inicio .contenido-seccion .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+.inicio .contenido-seccion .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+.inicio .contenido-seccion .info .redes{
+    margin: 20px 0;
+}
+.inicio .contenido-seccion .info .redes a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #1350d4;
+    color: #9bb2c2;
+    border: 1px solid #837ec7;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+.inicio .contenido-seccion .info .redes a:hover{
+    color: #fff;
+    background-color: #1350d4;
+    box-shadow: 0 0 20px #fff;
+}
+.inicio .contenido-seccion .foto{
+    position: relative;
+}
+.inicio .contenido-seccion .foto img{
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid #837ec7;
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+}
+/* ESTILO GENERALES */
+.titulo-seccion{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.5rem;
+}
+/* SECCION SOBRE MI */
+
+.sobremi{
+    background-color: #737883;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.sobremi .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.sobremi .contenido-seccion .titulo-detalle{
+    color:  #ffffff;
+    font-size: x-large;
+}
+.sobremi .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.sobremi .contenido-seccion .especial{
+    color: #10b5df;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.sobremi .contenido-seccion p{
+    max-width: 700px;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-size: x-large;
+}
+.sobremi .contenido-seccion .fila{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.sobremi .contenido-seccion .fila .col{
+    width: 30%;
+}
+.sobremi .contenido-seccion .fila .col i{
+    color: #0480d8;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #837ec7;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.sobremi .contenido-seccion .fila .col span{
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
+    font-size: xx-large;
+}
+
+/* SECCION HABILIDADES */
+.habilidades{
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("img/habilidades.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #fff;
+}
+.habilidades .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.habilidades .contenido-seccion h2{
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+.habilidades .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.habilidades .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.habilidades .contenido-seccion .fila .col{
+    width: 47%;
+    text-align: left;
+}
+.habilidades .contenido-seccion .fila .col .cont-barra{
+    display: grid;
+    align-items: center;
+}
+.habilidades .contenido-seccion .barra{
+    display: flex;
+    border: 1px solid #837ec7;
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.habilidades .contenido-seccion .barra .e{
+    background-color: #363636;
+    width: 20px;
+    height: 30px;
+    margin-right: 2px;
+}
+/* SECCION EDUCACION /EXP */
+.educacion{
+    background-color: #737883;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.educacion h2{
+    font-size: xx-large;
+}
+.educacion .contenido-seccion .info-extra{
+    max-width: 700px;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-size: large;
+}
+
+.educacion .contenido-seccion {
+    padding: 100%;
+    text-align: center center;
+    border-radius: 2%;
+    margin: 2%;
+    
+}
+
+.educacion .contenido-seccion .titulo-seccion {
+    color:  #ffffff;
+    font-size: xx-large;
+}
+
+
+.educacion .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.educacion .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: large;
+    text-align: center;
+    
+}
+.educacion .contenido-seccion h4{
+    font-size: large;
+    text-align: left;
+}
+.educacion .contenido-seccion .info{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.educacion .contenido-seccion .info .col{
+    width: 45%;
+}
+.educacion .contenido-seccion .info .col .titulo{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 2px solid #837ec7;
+    padding: 10px;
+
+}
+.educacion .contenido-seccion .info .col table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.educacion .contenido-seccion .info .col table .datos{
+    width: 40%;
+    border-bottom: 1px solid #837ec7;
+}
+.educacion .contenido-seccion .info .col table h4{
+    font-size: large;
+    margin-top: 10px;
+}
+.educacion .contenido-seccion .info .col table h3{
+    font-size: large;
+    margin-bottom: 5px;
+}
+.educacion .contenido-seccion .info .col table p{
+    font-size: large;
+}
+.educacion .contenido-seccion .info .col table .estado{
+    display: block;
+    color:  #0a131a;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.educacion .contenido-seccion .info .col table .descripcion{
+    border-left: 1px solid #837ec7;
+    padding-left: 20px;
+}
+/* SECCION CONTACTO */
+
+.contacto{
+    background: linear-gradient(rgba(152, 123, 163, 0.979), 
+                rgba(49, 76, 230, 0.575)), 
+                url("img/fondo2.jpg") ;
+    padding: 80px 0 100px 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .contenido-seccion .titulo-seccion{
+    font-size: xx-large;
+    color: #ffffff;
+    font-style: oblique;
+    
+}
+.contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .contenido-seccion .fila .col{
+    margin-top: 50px;
+}
+.contacto .contenido-seccion .fila .col h2{
+    color:  rgb(0, 0, 0);
+    font-size: x-large;
+}
+
+/* FOOTER */
+.footer {
+    
+    text-align: center;
+    background: #b84848;
+    padding: 10px 10px;
+    grid-column: 1/1;
+    background-color: #737883;
+    color: black;
+    max-width: auto;
+    text-decoration: underline;
+}
+
+.footer .footer h3{
+    font-size: x-large;
+    color: #000000;
+}
+.footer .footer h4{
+    font-size: x-large;
+    color: #000000;
+}
+/* SECCION RESPONSIVE */
+@media screen and (max-width:800px){
+    .habilidades .contenido-seccion .fila{
+        display: block;
+    }
+    .habilidades .contenido-seccion .fila .col{
+        width: 100%;
+        text-align: center;
+    }
+    .habilidades .contenido-seccion .fila .col .cont-barra{
+        justify-content: center;
+    }
+    .sobremi .contenido-seccion .fila{
+        display: block;
+    }
+    .sobremi .contenido-seccion .fila .col{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .experiencia .contenido-seccion .info{
+        display: block;
+    }
+    .experiencia .contenido-seccion .info .col{
+        width: 90%;
+        margin: auto;
+    }
+    .experiencia .contenido-seccion .info .col .titulo{
+        display: block;
+        text-align: center;
+    }
+    .experiencia .contenido-seccion .info .col table{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .contacto .contenido-seccion .fila{
+        display: block;
+    }
+}
+
+@media screen and (min-width:800px){
+    .sobremi .contenido-seccion .fila{
+        display: flex;
+    }
+    .sobremi .contenido-seccion .fila .col{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .habilidades .contenido-seccion .fila{
+        display: flex;
+    }
+    .habilidades .contenido-seccion .fila .col{
+        width: 100%;
+        text-align: center;
+    }
+    .habilidades .contenido-seccion .fila .col .cont-barra{
+        justify-content: center;
+    }
+
+}
+
+
+/*Estoy al tanto de que no es 100% responsive por que utilice malos metodos de display, 
+cuando se baja de 378px se rompe el responsive, procuro mejorar eñ responsive en los proximos proyectos.*/
